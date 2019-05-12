@@ -1,0 +1,58 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<!-- this is content for index/home page -->
+<!-- banner -->
+<div class="banner" id="home">
+    <div class="layer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 banner-text-w3pvt">
+                    <!-- banner slider-->
+                    <div class="csslider infinity" id="slider1">
+                        <input type="radio" name="slides" checked="checked" id="slides_1" />
+                        <input type="radio" name="slides" id="slides_2" />
+                        <input type="radio" name="slides" id="slides_3" />
+                        <ul class="banner_slide_bg">
+                            <li>
+                                <div class="container-fluid">
+                                    <div class="w3ls_banner_txt">
+                                        <h3 class="b-w3ltxt text-capitalize mt-md-4"> Life for Blog.</h3>
+                                        <h4 class="b-w3ltxt text-capitalize mt-md-2">Writing For Better Future</h4>
+                                        <p class="w3ls_pvt-title my-3">Writing means sharing. It's part of the human
+                                            condition to want to share things - thoughts, ideas, or opinions.
+                                        </p>
+                                        <a href="#about" class="btn btn-banner my-3">Start Sharing</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- //banner slider-->
+                </div>
+                <div class="col-lg-5 col-md-8 px-lg-3 px-0">
+                    <div class="banner-form-w3 ml-lg-5">
+                        <div class="padding">
+                            <!-- banner form -->
+                            <form action="#" method="post">
+                                <h5 class="mb-3">Register and Join in our world</h5>
+                                <div class="form-style-w3ls">
+                                    <input placeholder="Username" name="name" type="text" required="">
+                                    <input placeholder="Email" name="email" type="email" required="">
+                                    <input placeholder="Password" name="number" type="text" required="">
+                                    <input placeholder="Confirm Password" name="number" type="text" required="">
+                                    <!--<input placeholder="Password" name="password" type="password" required=""> -->
+                                    <button Class="btn"> Get Started</button>
+                                    <span>By registering, you agree to share your world</span>
+                                </div>
+                            </form>
+                            <!-- //banner form -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //banner -->
+{% endblock content %}
